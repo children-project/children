@@ -1,0 +1,46 @@
+#body1{
+	background-image: url(photos/background.jpg);
+}
+
+#nav {
+   display: flex;
+    height: 117px;
+    padding: 1%;
+    border-top-width: 16%;
+    margin-top: 3%;
+    background-color: #fbec18;
+    size: 25%;
+    opacity: 0.55;
+    }
+
+
+    .but{
+    	    border: none;
+       border-radius: 15%;
+    background-color: #2fd014;
+    color: white;
+    padding: 29px 32px;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+    }
+
+    #logo{
+       margin-bottom: -1%;
+    margin-left: 59%;
+    padding: -51%;
+    border-style: none;
+    width: 8%;
+    }
+    #kid{
+     margin-left: 6%;
+    margin-top: 4%;
+    }
+    #learn{
+    width: -8%;
+    margin-top: -10%;
+    margin-left: 40%;
+    font-family: cursive;
+    font-size: 47px;
+    color: rebeccapurple;
+    }
