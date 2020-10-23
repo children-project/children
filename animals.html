@@ -3,16 +3,16 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="home.css">
-	<div id="nav">
-		<button class="but">Home</button>
-		<button class="but">Games</button>
-		<button class="but">Stories</button>
+<div id="nav">
+		<button  id="home" class="but">Home</button>
+		<button id="games" class="but">Games</button>
+		<button id="stories" class="but">Stories</button>
 		<img id="logo"src="photos/capture.PNG">
 	</div>
 </head>
 <body>
 	<div>
-		<div id="firstD"  >
+		<div id="firstD" >
 			<div id="fd">
 			<img  id="horse"src="photos/horse.jpg">
 			<h3 style="margin-left: -7%;">Horse</h3>
@@ -29,8 +29,8 @@
 			<img  id="x"src="photos/ui-02-512.webp"style="  margin-top: 7%;margin-left: 37%;">
 		    </div>
 		    <div id="job" style="display: none;">
-		    	<h1>Good</h1>
-		    	<img src="photos/ver.png">
+		    	<h1 style="margin-left: 46%;">Good</h1>
+		    	<img style="margin-left: 32%;" src="photos/ver.png">
 		    </div>
 		    <div id="secondD" style="display: none">
 		    	<div id="sd" style="display: flex;">
@@ -63,7 +63,11 @@
 			<img  id="x"src="photos/ui-02-512.webp" style="  margin-top: 7%;margin-left: 37%;">	        
 		    </div>
 		    <div id="loader" style="display: none;"></div>
-		    <div id="great" style="display: none">You did a great job</div>
+		    <div id="welcome" style="display: none " >
+<h1 style="margin-left: 38%;margin-top: 4%;">Great ! you are intelligent</h1>
+<img src="photos/kid.jpg" style=";margin-left: 38%;width: 23%;opacity: 0.4;">
+<button id="other"style="top: 44px; position: relative;left: -15%;">other games</button>
+</div>
 	</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="home.js"></script>
