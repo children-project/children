@@ -1,0 +1,90 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/17/ac/a0/17aca0214bfbefb93ab0a2f19b1624c1.jpg);
+}
+h1 {
+  text-align: center;
+}
+
+#dif {
+  margin-left: 6%;
+}
+#f1 {
+  top: -60px;
+  width: 8%;
+  position: relative;
+  left: -53%;
+}
+
+#f2 {
+  top: -165px;
+  position: relative;
+  left: 77%;
+  width: 9%;
+}
+#f3 {
+  width: 9%;
+  position: relative;
+  top: -470px;
+  left: 21%;
+}
+#f4 {
+  position: relative;
+  width: 9%;
+  left: 53%;
+  top: -472px;
+}
+
+#f5 {
+  left: -16%;
+  position: relative;
+  width: 9%;
+  left: 1;
+  top: -283px;
+}
+
+#f6 {
+  width: 9%;
+  position: relative;
+  width: 9%;
+  left: 16%;
+  top: -278px;
+}
+#f7 {
+  position: relative;
+  width: 7%;
+  left: -12%;
+  top: -294px;
+}
+#f8 {
+  position: relative;
+  width: 7%;
+  left: 23%;
+  top: -284px;
+}
+#f9 {
+  position: relative;
+  width: 6%;
+  top: -269px;
+  left: 1%;
+}
+#f10 {
+  width: 6%;
+  position: relative;
+  left: -47%;
+  top: -253px;
+}
+.cercles1 {
+  opacity: 0;
+}
+.cercles2 {
+    opacity: 0;
+  }
+  .cercles3 {
+    opacity: 0;
+  }
+  .cercles4 {
+    opacity: 0;
+  }
+  .cercles5 {
+    opacity: 0;
+  }
