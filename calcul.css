@@ -17,13 +17,14 @@
   width: 100px;
 }
 #d {
+  margin-left: 32%;
   width: min-content;
   border: 10px solid #d800ff96;
   border-radius: 17px;
   display: flex;
 }
 div {
-  margin-left: 420px;
+  margin-left: px;
 }
 h1 {
   font-size: 250%;

@@ -24,8 +24,13 @@ setTimeout(function(){
 });
 
 $( "#elephant" ).click(function() {
-  $("#firstD").hide();
-  $("#secondD").show();
+  $("#firstD").hide(); 
+  $('#job').fadeIn('slow', function(){
+     $('#job').delay(2000).fadeOut();
+   });
+  setTimeout(function(){ 
+	$("#secondD").show(); 
+},2990);
 });
 
 
