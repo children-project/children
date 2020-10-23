@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<div id="nav">
+		<button class="but">Home</button>
+		<button class="but">Games</button>
+		<button class="but">Stories</button>
+		<img id="logo"src="photos/capture.PNG">
+	</div>
+</head>
+<body>
+	<div>
+		<div id="firstD" >
+			<div id="fd">
+			<img  id="horse"src="photos/horse.jpg">
+			<h3 style="margin-left: -7%;">Horse</h3>
+			<img  id="tom"src="photos/tom.png">
+			<h3>Cat</h3>
+			<img  id="elephant" src="photos/elephant.jpg">
+			<h3>Elephant</h3>
+		     </div>
+			<img id="bt1" src="photos/button.jpg" onclick="play('sounds/Elefant.mp3')">
+		</div>
+		    <div id="try" style="display: none">
+			<img  id="x"src="photos/ui-02-512.webp">
+		    </div>
+		    <div id="secondD" style="display: none">
+		    	<div id="sd" style="display: flex;">
+		    	<img id="dog"src="photos/dog.png">
+		    	<h3>Dog</h3>
+		    	<img id="lion" src="photos/lion.jpg">
+		    	<h3>Lion</h3>
+		    	<img id="monkey" src="photos/monkey.jpg">
+		    	<h3>Monkey</h3>
+		        </div>
+		    	<img id="bt2" src="photos/button.jpg" onclick="play2('sounds/Löwe.mp3')">
+		    </div>
+		    <div id="try2" style="display: none">
+			<img  id="x"src="photos/ui-02-512.webp">
+		    </div>
+		    <div id="thirdD" style="display: none">
+		    	<img id="cheep" src="photos/cheep.jpg">
+		    	<h3>Cheep</h3>
+		    	<img id="bird" src="photos/bird.jpg">
+		    	<h3>Bird</h3>
+		    	<img id="cock" src="photos/cock.jpg">
+		    	<h3>Cock</h3>
+		    	<img id="bt3" src="photos/button.jpg" onclick="play3('sounds/cock.mp3')">
+		    </div>
+		    <div id="try3" style="display: none">
+			<img  id="x"src="photos/ui-02-512.webp">	        
+		    </div>
+		    <div id="loader" style="display: none;"></div>
+		    <div id="great" style="display: none">You did a great job</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="home.js"></script>
+</body>
+</html>

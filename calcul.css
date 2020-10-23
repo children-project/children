@@ -1,0 +1,78 @@
+#apple {
+  margin: 8px;
+  border-radius: 35px;
+  height: 100px;
+  width: 100px;
+}
+#poire {
+  margin: 8px;
+  border-radius: 35px;
+  height: 100px;
+  width: 100px;
+}
+#strawberry {
+  margin: 8px;
+  border-radius: 35px;
+  height: 100px;
+  width: 100px;
+}
+#d {
+  width: min-content;
+  border: 10px solid #d800ff96;
+  border-radius: 17px;
+  display: flex;
+}
+div {
+  margin-left: 420px;
+}
+h1 {
+  font-size: 250%;
+  text-decoration: wavy;
+  text-align: center;
+  text-shadow: 100px;
+}
+h2 {
+  font-size: 250%;
+}
+a {
+  margin-left: 400px;
+  display: flex;
+}
+b {
+  margin-left: 400px;
+  display: flex;
+}
+c {
+  margin-left: 400px;
+  display: flex;
+}
+body {
+  background-image: url(https://i.pinimg.com/originals/17/ac/a0/17aca0214bfbefb93ab0a2f19b1624c1.jpg);
+}
+input {
+  text-align: center;
+  width: 100px;
+  font-size: 80px;
+  margin: 8px;
+  border-radius: 38px;
+}
+
+.correct {
+  width: 100px;
+  height: 100px;
+}
+
+#wrong {
+  width: 100px;
+  height: 100px;
+}
+#btn{
+    border-radius: 21%;
+    background-color:#e831ab7d;
+    width: 200px;
+    height: 100px;
+    margin-left: 546px;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 41px;
+}
