@@ -1,3 +1,7 @@
+.inp {
+    overflow: visible;
+    font-size: 40px;
+}
 #apple {
   margin: 8px;
   border-radius: 35px;
@@ -36,15 +40,15 @@ h2 {
   font-size: 250%;
 }
 a {
-  margin-left: 400px;
+  margin-left:454px;
   display: flex;
 }
 b {
-  margin-left: 400px;
+  margin-left: 457px;
   display: flex;
 }
 c {
-  margin-left: 400px;
+  margin-left: 457px;
   display: flex;
 }
 body {
@@ -72,7 +76,7 @@ input {
     background-color:#e831ab7d;
     width: 200px;
     height: 100px;
-    margin-left: 546px;
+    margin-left:  614px;
     font-style: oblique;
     font-weight: bold;
     font-size: 41px;

@@ -29,9 +29,26 @@ $('.cercles5').click(function(){
   x(score)
 })
 function x(score){
-    if(score===2){
-        $('#dif').hide("slow")
+    if(score===5){
+        $('#div').hide("slow")
+         $('#welcome').show("slow")
         console.log(score)
     }
 }
 x(score)
+
+$("#home").click(function(){
+  window.location.href = "file:///C:/Users/HP/OneDrive/Bureau/children%20project/children/home.html";
+})
+
+$("#games").click(function(){
+  window.location.href = "file:///C:/Users/HP/OneDrive/Bureau/children%20project/children/games.html";
+})
+
+$("#stories").click(function(){
+  window.location.href = "https://www.freechildrenstories.com/age-3-5";
+})
+
+$("#other").click(function(){
+  window.location.href = "file:///C:/Users/HP/OneDrive/Bureau/children%20project/children/games.html";
+})

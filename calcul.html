@@ -5,12 +5,12 @@
       <link type='text/css' rel='stylesheet' href='calcul.css'>
       <link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="home.css">
-	<div id="nav">
-		<button class="but">Home</button>
-		<button class="but">Games</button>
-		<button class="but">Stories</button>
-		<img id="logo"src="photos/capture.PNG">
-	</div>
+<div id="nav">
+        <button  id="home" class="but">Home</button>
+        <button id="games" class="but">Games</button>
+        <button id="stories" class="but">Stories</button>
+        <img id="logo"src="photos/capture.PNG">
+    </div>
      </head> 
     <body>
         
@@ -39,7 +39,7 @@
                     <h2> + </h2>
                     <img id='strawberry' class="ins" src='images/strawberry.jpg'>
                      <h2> = </h2>
-                     <input id='in1' placeholder=" ">
+                     <input class="inp" type=text id='in1' placeholder=" ">
                      <img class="correct"id='correct' src='images/correct.png'style='display: none'>
                      <img class="correct"id='wrong' src='images/wrong.png'style='display: none'>
                     </b>
@@ -53,7 +53,7 @@
                     <img id="apple" class="ins" src="images/apple.jpg">
                     <h2> = 
                     </h2>
-                    <input id='in2' placeholder=" ">
+                    <input class="inp" type=text id='in2' placeholder=" ">
                     <img class="correct"id='correct2' src='images/correct.png' style='display: none'>
                      <img class="correct"id='wrong2' src='images/wrong.png' style='display: none'>
                 </b>
@@ -65,7 +65,7 @@
                     <h2> + </h2>
                     <img id="apple" class="ins" src="images/apple.jpg">
                     <h2> = </h2>
-                    <input id ='in3'placeholder=" ">
+                    <input class="inp" type=text id ='in3'placeholder=" ">
                     <img class="correct"id='correct3' src='images/correct.png'style='display: none'>
                      <img class="correct"id='wrong3' src='images/wrong.png'style='display: none'>
                 </c>
@@ -78,7 +78,11 @@
             <br></br>
             <br></br>
             <button id='btn' >Submit</button>
-
+            <div id="welcome" style="display: none " >
+            <h1>Great ! you are intelligent</h1>
+            <img src="photos/kid.jpg" style=";margin-left: 38%;width: 23%;opacity: 0.4;">
+            <button style="top: 44px; position: relative;left: -15%;">other games</button>
+            </div>
        <script src='calcul.js'></script>
     </body>
 </html>
