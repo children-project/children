@@ -20,7 +20,17 @@ $('#correct3').hide()
 }
 })
 
+$("#home").click(function(){
+  window.location.href = "file:///C:/Users/HP/OneDrive/Bureau/children%20project/children/home.html";
+})
 
+$("#games").click(function(){
+  window.location.href = "file:///C:/Users/HP/OneDrive/Bureau/children%20project/children/games.html";
+})
+
+$("#stories").click(function(){
+  window.location.href = "https://www.freechildrenstories.com/age-3-5";
+})
 
 
 

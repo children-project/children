@@ -5,14 +5,16 @@
  <link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="home.css">
 	<div id="nav">
-		<button class="but">Home</button>
-		<button class="but">Games</button>
-		<button class="but">Stories</button>
-		<img id="logo"src="photos/capture.PNG">
-	</div>
+        <button  id="home" class="but">Home</button>
+        <button id="games" class="but">Games</button>
+        <button id="stories" class="but">Stories</button>
+        <img id="logo"src="photos/capture.PNG">
+    </div>
     </head>
     <body>
+<div id="div" >
 <h1>Find the 5 diffirences :</h1>
+
 <img id="dif" src="images/game.png">
 
 <img id="f1"class='cercles1'src="images/cercle.png">
@@ -25,6 +27,12 @@
 <img id="f8"class='cercles4'src="images/cercle.png">
 <img id="f9"class='cercles5'src="images/cercle.png">
 <img id="f10"class='cercles5'src="images/cercle.png">
+</div>
+<div id="welcome" style="display: none " >
+<h1>Great ! you are intelligent</h1>
+<img src="photos/kid.jpg" style=";margin-left: 38%;width: 23%;opacity: 0.4;">
+<button id="other" style="top: 44px; position: relative;left: -15%;">other games</button>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="diffirences.js"></script>
     </body>

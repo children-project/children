@@ -1,3 +1,6 @@
+#body2{
+    background: aqua;
+}
 #body1{
 	background-image: url(photos/background.jpg);
 }
@@ -161,6 +164,8 @@
     }
 
     #loader {
+  margin-left: 46%;
+  margin-top: 15%;
   border: 16px solid #f3f3f3;
   border-radius: 50%;
   border-top: 16px solid #3498db;
@@ -179,4 +184,37 @@
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+#other{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#animals{
+  border-radius: 16%;
+  width: 31%;
+   margin-left: 12%;
+  margin-top: 5%;
+  cursor: pointer;
+}
+#calculate{
+  margin-top: 6%;
+width: 48%;
+    width: 42% margin-top: 4%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+#images{
+    width: 26%;
+    margin-left: 16%;
+    border-radius: 10%;
+    cursor: pointer;
 }
