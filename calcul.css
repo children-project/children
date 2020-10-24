@@ -1,3 +1,7 @@
+.inp {
+    overflow: visible;
+    font-size: 40px;
+}
 #apple {
   margin: 8px;
   border-radius: 35px;
